@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #0e1111;
+    color: white;
+}
+
+@media (max-width: 500px) {
+    * {
+        font-size: 15pt;
+    }
+}

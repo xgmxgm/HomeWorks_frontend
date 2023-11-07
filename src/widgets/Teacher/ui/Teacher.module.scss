@@ -1,0 +1,36 @@
+.Teacher__Main {
+    .Welcome__Div {
+        text-align: center;
+    }
+
+    .Teacher__Up {
+
+        .h2 {
+            font-size: 20pt;
+            font-weight: 500;
+        }
+    }
+
+    .create__homeWork {
+        margin: 10px;
+    }
+
+    .HomeWorks {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .homeWork__title {
+            margin: 10px;
+            font-size: 15pt;
+        }
+
+        .HomeWork__card {
+            border: black solid 1px;
+            border-radius: 15px;
+            margin: 15px;
+            padding: 15px;
+            min-width: 400px;
+        }
+    }
+}
